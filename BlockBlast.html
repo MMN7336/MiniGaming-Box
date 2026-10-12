@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="BlockBlast.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <div class="game">
+
+      <a href="BlockBlast.html"><button class="reset"><i class="fa-solid fa-rotate-right"></i></button></a>
+
+    <div class="canvas-holder">
+      <p >Score: <span id="score">0</span><br>Best Score: <span id="best-score">0</span></p>
+      <canvas id="canvas" width="600" height="600"></canvas>
+    </div>
+    <div class="extra-screen" id="load-title">
+      <div class="content-hold">
+        <h1>Block Blaster</h1>
+        <p>Press any key to begin</p>
+      </div>
+    </div>
+
+    <div class="extra-screen hide" id="levelup-title">
+      <div class="content-hold">
+        <h1>Level Up!</h1>
+      </div>
+    </div>
+
+    <div class="extra-screen hide" id="lose-title">
+      <div class="content-hold">
+        <h1>Game Over :( <br><span id="new-record" class="hide">New Record!!<span></h1>
+        <p>Press any key to play again</p>
+      </div>
+    </div>
+
+    <a href="home.html"><button class="home"><i class="fa-solid fa-house"></i></button></a>
+    
+    <script src="BlockBlast.js"></script>
+
+  </div>
+
+
+
+</body>
+
+</html>

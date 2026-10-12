@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(109, 63, 216);
+}
+
+canvas {
+  background: #000;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 15px;
+  padding-top: 20px;
+  margin-left: 670px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 5);
+  color: yellow;
+  font-size: 35px;
+}
+
+.container{
+  display: flex;
+
+}
+
+.btn-info {
+  display: block;
+  cursor: pointer;
+  block-size: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  border-color: aqua;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 5);
+  color: black;
+  font-size: 17px;
+}
+
+.home {
+  display: block;
+  cursor: pointer;
+  block-size: 30px;
+  width: 50px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  border-color: aqua;
+  font-size: 15px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 5);
+  color: black;
+}
+
+.reset {
+  display: block;
+  cursor: pointer;
+  block-size: 30px;
+  width: 50px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 640px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  border-color: aqua;
+  font-size: 15px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 5);
+  color: black;
+}

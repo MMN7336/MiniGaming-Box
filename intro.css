@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: #161616;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    transition: 1s;
+}
+
+.logo-header{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #eefc2b;
+}
+
+.logo{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.logo.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.logo.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+.login-form{
+    width: 470px;
+    background: #202020;
+    padding: 30px 60px;
+}
+
+.logo1{
+    height: 100px;
+    text-align: center;
+}
+
+.logo1 img{
+    height: 120px;
+    border-radius: 30%;
+}
+
+.social-media{
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media button{
+    height: 50px;
+    width: 80px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    transition: .3s linear;
+}
+
+.social-media button:last-child{
+    margin: 0;
+}
+
+.social-media button img{
+    width: 20px;
+}
+
+.fb{
+    background: #4267b2;
+}
+
+.google{
+    background: #fff;
+}
+
+.telegram{
+    background: #4267b2;
+}
+
+.social-media button:hover{
+    opacity: .7;
+}
+
+.login-form h4{
+    color: #f1f1f1;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.textbox{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: 15px;
+    color: white;
+}
+
+.textbox input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #2b2b2b;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    columns: #f4f4f4;
+    color: white;
+}
+
+.textbox input:focus{
+    background: #484848 !important;
+    color: white;
+}
+
+
+.login-btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    background: #037bee;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .3s linear;
+}
+.login-btn:hover{
+    opacity: .8;
+    background-color: #4267b2;
+}
+
+.btn1{
+    width: 100%;
+    height: 50px;
+    background: #037bee;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .3s linear;
+}
+
+.btn1:hover{
+    opacity: .8;
+    background-color: #4267b2;
+}
+
+
+@media screen and (max-width:470px){
+    body{
+        background: #202020;
+    }
+}
+
+.phone{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.phone input{
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 16px;
+    border-color: #f4f4f4;
+    background: #2b2b2b;
+    columns: #f4f4f4;
+}
+
+.phone input:focus{
+    background: #484848 !important;
+}
+
+#phone{
+    outline: 0;
+}
+
+#phone:valid{
+    border-color: green;
+}
+
+#phone:focus:invalid{
+    border-color: red;
+}
